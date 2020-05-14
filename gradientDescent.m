@@ -27,5 +27,5 @@ function theta = gradientDescent(X, y, iterations, alpha)
         errorVector = (X * theta) - y;
         theta = theta - ((1/m) * errorVector' * X)' * alpha;
     end
-endfunction
+end
 

@@ -23,5 +23,5 @@ function J = costFunctionJ(X, y, theta)
     predictions = X * theta; % get prediction of all hypothesis on all m examples
     sqrErrors = (predictions - y).^2; % find the squared error
     J = 1/(2*m) * sum(sqrErrors);
-endfunction
+end
 
